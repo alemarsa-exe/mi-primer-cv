@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, body, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.nombre{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #FBF8F1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left-side{
+    position: relative;
+    background-color: #F7ECDE;
+    padding: 40px;
+}
+
+.container .right-side{
+    position: relative;
+    background-color: #FBF8F1;
+    padding: 40;
+}
+
+.foto-alex{
+    position: relative;
+    border-radius: 20%;
+    overflow: hidden;
+    height: 300px;
+}
+/*
+.footer-right img{
+    max-width: 30px;
+}
+*/
