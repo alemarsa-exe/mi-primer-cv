@@ -170,9 +170,14 @@ body {
     margin-bottom: 10px;
 }
 
-.proyectos img{
+.proyectos h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.proyectos a img{
     width: 240px;
-    text-align: center;
+    text-align: right;
 }
 
 
