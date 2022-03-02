@@ -159,10 +159,11 @@ body {
     padding-top: 5px;
 }
 
-
-
 .proyectos .images img{
     width: 300px;
+}
+
+.proyectos .images .esferas{
     text-align: center;
 }
 
