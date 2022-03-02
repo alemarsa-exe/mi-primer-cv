@@ -9,13 +9,9 @@ h1, h2, h3, body, h4, h5, h6, p{
     font-weight: 400;
 }
 
-.nombre{
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-}
-
 body {
-    background-color: #FFF;
+    /*background-color: #eee8e7;*/
+    background-color: #F0F1FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,29 +23,143 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: #FBF8F1;
+    margin: 50px;
+    /*background-color: #FBF8F1;*/
+    background-color: #FAF8F0;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
 }
 
 .container .left-side{
     position: relative;
-    background-color: #F7ECDE;
+    /*background-color: #F7ECDE;*/
+    /*background-color: #398AB9;*/
+    color:whitesmoke;
+    background-color: #213b48;
     padding: 40px;
+}
+
+
+.texto-perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.texto-perfil .foto-contenedor{
+    position: relative;
+    width: 200px;
+    height: 230px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.texto-perfil .foto-contenedor img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-perfil h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.texto-perfil h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.body-left{
+    padding-top: 30px;
+}
+
+.title-hobby{
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.body-left ul{
+    position: relative;
+}
+
+.body-left ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.body-left ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #448cb1;
+}
+
+.body-left ul li .text{
+    font-weight: 300;
+}
+
+.body-left.lenguajes .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.body-left.lenguajes .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #0589c7;
+}
+
+.redes a {
+    text-align: left;
+}
+
+.redes img{
+    padding-top: 160px;
+    max-width: 30px;
 }
 
 .container .right-side{
     position: relative;
-    background-color: #FBF8F1;
-    padding: 40;
+    /*background-color: #FBF8F1;*/
+    background-color: #FAF8F0;
+    padding: 40px;
 }
 
-.foto-alex{
-    position: relative;
-    border-radius: 20%;
-    overflow: hidden;
-    height: 300px;
+.resumen{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.7);
 }
+
+.resumen p{
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+
+
 /*
 .footer-right img{
     max-width: 30px;
