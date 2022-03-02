@@ -133,12 +133,12 @@ body {
 }
 
 .redes a {
-    text-align: left;
+    position: relative;
     color: rgb(59, 226, 248);
 }
 
 .redes img{
-    padding-top: 160px;
+    padding-top: 250px;
     max-width: 30px;
 }
 
@@ -175,14 +175,37 @@ body {
     margin-bottom: 5px;
 }
 
+.proyectos h4{
+    margin-bottom: 5px;
+}
+
 .proyectos a img{
     display: block;
     margin: 0 auto;
     width: 240px;
-    text-align: right;
+    padding-bottom: 10px;
 }
 
+.pelis{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
+.pelis h1{
+    margin-bottom: 5px;
+}
+
+.pelis .favoritos{
+    border-spacing: 12px;
+}
+
+.pelis .favoritos tr th{
+     text-align: left;
+}
+
+th, td{
+    padding-right: 20px;
+}
 
 /*
 .footer-right img{
